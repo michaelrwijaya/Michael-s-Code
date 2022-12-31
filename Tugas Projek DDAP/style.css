@@ -1,0 +1,108 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+.f-msrt {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.w-logo {
+  width: 60px;
+}
+.fs-nav {
+  font-size: 20px !important;
+}
+.bg-bl {
+  background-color: #274472;
+}
+.bg-oren {
+  background-color: #fa9d1b;
+}
+.bg-dark-oren {
+  background-color: #f58216;
+}
+.bg-dark-oren2 {
+  background-color: #ef6315;
+}
+
+.hoverdark {
+  color: white !important;
+}
+.hoverdark:hover {
+  color: rgb(109, 109, 109) !important;
+}
+.jumbotron {
+  background-image: url(assets/jumboBg.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+.pt-head {
+  padding-top: 125px;
+}
+.pb-head {
+  padding-bottom: 150px;
+}
+
+.text-title {
+  font-style: normal !important;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 59px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text-desc {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.photos img {
+  aspect-ratio: 1/1 !important;
+  width: 100%;
+  max-height: 544px;
+}
+.shdow-sec {
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.shadow-produk {
+  box-shadow: 0px 4px 4px 12px rgba(0, 0, 0, 0.25);
+}
+.shdw-text {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 768px) {
+  .fs-nav {
+    font-size: 12px !important;
+  }
+  .text-title {
+    font-style: normal !important;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .text-desc {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+@media screen and (max-width: 500px) {
+  .text-title {
+    font-style: normal !important;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 32px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .text-desc {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
